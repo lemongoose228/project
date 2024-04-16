@@ -1,0 +1,13 @@
+import unittest
+from code.main import calculate_circle_area, is_prime
+
+class TestMyModule(unittest.TestCase):
+
+    def test_calculate_circle_area(self):
+        self.assertAlmostEqual(calculate_circle_area(2), 12.566370614359172)
+
+    def test_is_prime(self):
+        self.assertFalse(is_prime(1))
+        self.assertTrue(is_prime(2))
+        self.assertTrue(is_prime(7))
+        self.assertFalse(is_prime(10))
