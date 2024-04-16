@@ -8,7 +8,7 @@ setup(
     author='Kate Konova',
     author_email='konova.ek@mail.ru',
     description='calculates the area of ​​a circle given a given radius and is used to check if a number is prime',
-    url='',
+    url='https://github.com/lemongoose228/project.git',
     extras_require={
           'test': [
               'pytest',
